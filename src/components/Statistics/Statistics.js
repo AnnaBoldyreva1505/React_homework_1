@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export const Statistics = () => {
     return (
         <div>
@@ -5,3 +7,7 @@ export const Statistics = () => {
         </div>
     )
     }
+
+    Statistics.propTypes = {
+        
+    };

@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export const Profile = () => {
     return (
     <div>
@@ -5,3 +7,7 @@ export const Profile = () => {
     </div>
 )
 }
+
+Profile.propTypes = {
+        
+};
