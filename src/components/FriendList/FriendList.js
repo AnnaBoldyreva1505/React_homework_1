@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
-import { TiAdjustBrightness } from 'react-icons/ti';
-
+import { FriendListItem } from './FriendListItem'
+ 
 
 export const FriendList = () => {
     return (
-        <div>
-        <TiAdjustBrightness /><p>Друзья</p>
-        </div>
+<ul class="friend-list">
+<FriendListItem />
+</ul>
     )
     }
 
