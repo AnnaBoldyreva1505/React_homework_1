@@ -17,4 +17,11 @@ export const FriendListItem = ({ data }) => {
   );
 };
 
-FriendListItem.propTypes = {};
+FriendListItem.propTypes = {
+  data: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    isOnline: PropTypes.bool.isRequired,
+    avatar: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+  }).isRequired,
+};
